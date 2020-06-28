@@ -89,4 +89,17 @@ Public Class Form1
         Me.PanelForms.Tag = frm
         frm.Show()
     End Sub
+
+    Private Sub btnProductos_Click(sender As Object, e As EventArgs) Handles btnProductos.Click
+        abrirFormulario(solicitud)
+
+    End Sub
+
+    Private Sub btnClientes_Click(sender As Object, e As EventArgs) Handles btnClientes.Click
+        abrirFormulario(Planes)
+    End Sub
+
+    Private Sub btnEmpleados_Click(sender As Object, e As EventArgs) Handles btnEmpleados.Click
+        abrirFormulario(RegistroEmpleados)
+    End Sub
 End Class

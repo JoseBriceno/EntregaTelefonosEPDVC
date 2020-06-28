@@ -134,7 +134,7 @@ Partial Class Form1
         Me.PanelLateral.Location = New System.Drawing.Point(0, 40)
         Me.PanelLateral.Margin = New System.Windows.Forms.Padding(2)
         Me.PanelLateral.Name = "PanelLateral"
-        Me.PanelLateral.Size = New System.Drawing.Size(200, 460)
+        Me.PanelLateral.Size = New System.Drawing.Size(165, 460)
         Me.PanelLateral.TabIndex = 2
         '
         'btnProductos
@@ -148,7 +148,7 @@ Partial Class Form1
         Me.btnProductos.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.btnProductos.Image = CType(resources.GetObject("btnProductos.Image"), System.Drawing.Image)
         Me.btnProductos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnProductos.Location = New System.Drawing.Point(11, 94)
+        Me.btnProductos.Location = New System.Drawing.Point(0, 94)
         Me.btnProductos.Margin = New System.Windows.Forms.Padding(2)
         Me.btnProductos.Name = "btnProductos"
         Me.btnProductos.Size = New System.Drawing.Size(157, 41)
@@ -180,7 +180,7 @@ Partial Class Form1
         Me.btnEmpleados.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.btnEmpleados.Image = CType(resources.GetObject("btnEmpleados.Image"), System.Drawing.Image)
         Me.btnEmpleados.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnEmpleados.Location = New System.Drawing.Point(11, 197)
+        Me.btnEmpleados.Location = New System.Drawing.Point(0, 197)
         Me.btnEmpleados.Margin = New System.Windows.Forms.Padding(2)
         Me.btnEmpleados.Name = "btnEmpleados"
         Me.btnEmpleados.Size = New System.Drawing.Size(178, 62)
@@ -200,7 +200,7 @@ Partial Class Form1
         Me.btnClientes.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.btnClientes.Image = CType(resources.GetObject("btnClientes.Image"), System.Drawing.Image)
         Me.btnClientes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnClientes.Location = New System.Drawing.Point(11, 151)
+        Me.btnClientes.Location = New System.Drawing.Point(0, 151)
         Me.btnClientes.Margin = New System.Windows.Forms.Padding(2)
         Me.btnClientes.Name = "btnClientes"
         Me.btnClientes.Size = New System.Drawing.Size(161, 42)
@@ -214,7 +214,7 @@ Partial Class Form1
         Me.btnMenu.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.btnMenu.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnMenu.Image = CType(resources.GetObject("btnMenu.Image"), System.Drawing.Image)
-        Me.btnMenu.Location = New System.Drawing.Point(166, 4)
+        Me.btnMenu.Location = New System.Drawing.Point(131, 4)
         Me.btnMenu.Margin = New System.Windows.Forms.Padding(2)
         Me.btnMenu.Name = "btnMenu"
         Me.btnMenu.Size = New System.Drawing.Size(30, 32)
@@ -225,11 +225,12 @@ Partial Class Form1
         'PanelForms
         '
         Me.PanelForms.BackColor = System.Drawing.Color.Black
+        Me.PanelForms.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.PanelForms.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.PanelForms.Location = New System.Drawing.Point(200, 40)
+        Me.PanelForms.Location = New System.Drawing.Point(165, 40)
         Me.PanelForms.Margin = New System.Windows.Forms.Padding(2)
         Me.PanelForms.Name = "PanelForms"
-        Me.PanelForms.Size = New System.Drawing.Size(700, 460)
+        Me.PanelForms.Size = New System.Drawing.Size(735, 460)
         Me.PanelForms.TabIndex = 3
         '
         'TimerMostrar

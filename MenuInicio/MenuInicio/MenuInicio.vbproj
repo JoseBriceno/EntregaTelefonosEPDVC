@@ -95,6 +95,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Planes.Designer.vb">
+      <DependentUpon>Planes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Planes.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="RegistroEmpleados.Designer.vb">
       <DependentUpon>RegistroEmpleados.vb</DependentUpon>
     </Compile>
@@ -117,6 +123,15 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planes.resx">
+      <DependentUpon>Planes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegistroEmpleados.resx">
+      <DependentUpon>RegistroEmpleados.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Solicitud.resx">
+      <DependentUpon>Solicitud.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
